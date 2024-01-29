@@ -1,0 +1,23 @@
+{
+    "functionDirectory" : "/home/site/wwwroot",
+    "language"          : "python",
+    "name"              : "get_names",
+    "scriptFile"        : "function_app.py",
+
+         "bindings" : [
+        {
+             "authLevel" : "function",
+             "direction" : "in",
+             "name"      : "req",
+             "route"     : "get_names",
+             "type"      : "httpTrigger"
+        },
+        {
+             "direction" : "out",
+             "name"      : "$return",
+             "type"      : "http"
+        }
+    ]
+         
+}
+
